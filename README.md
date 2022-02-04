@@ -12,7 +12,7 @@ codes from coding test study
 
 
 파일 네이밍
-
+0. w_ : 재형
 1. y_ : 윤채
 2. k_ : 응진
 3. ()_s_ : 같이
