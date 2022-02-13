@@ -14,4 +14,4 @@ class Solution:
                         elif s[i:j+1] == s[i:] and longest < len(s[i:]):
                             longest = len(s[i:])
                             found = True
-        return longest if found else len(s)
+        return longest if found else len(s) 
