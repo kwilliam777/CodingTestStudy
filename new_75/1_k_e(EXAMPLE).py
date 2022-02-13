@@ -4,4 +4,4 @@ class Solution:
             if target - nums[i] in nums and i != nums.index(target-nums[i]):
                 result = [i, nums.index(target-nums[i])]
                 break
-        return result
+        return result 
