@@ -6,4 +6,4 @@ class Solution:
                 if nums[i]+nums[j] == target :
                     answ=[i,j]
                     break;
-        return answ
+        return answ 
