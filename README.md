@@ -26,5 +26,5 @@ codes from coding test study
 0. moonjaebunho munje ssugi
 1. gudaum erum ssugi
 
-PS> 할 수 있다~!
+PS> 할 수 있다~! 
 
