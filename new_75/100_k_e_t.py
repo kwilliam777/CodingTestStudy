@@ -17,23 +17,15 @@ class Solution:
             ql = q.left if q.left != None else None
             qr = q.right if q.right != None else None
             
-            # print(pl,pr,ql,qr)
             val1 = True
             val2 = True
             
-            if (pl == None and ql != None) or (pl != None and ql == None):
-                print("1")
-                val1 = False
-            elif pl!=None and ql!=None:
-                print("2", pl,ql)
-                val1 = check(pl,ql)
+            if (pl == None and ql != None) or (pl != None and ql == None): val1 = False
+            elif pl!=None and ql!=None: val1 = check(pl,ql)
             
-            if (pr == None and qr != None) or (pr != None and qr == None):
-                print("3")
-                val2 = False
-            elif pr!=None and qr!=None:
-                print("4")
-                val2 = check(pr,qr)
+            if (pr == None and qr != None) or (pr != None and qr == None): val2 = False
+            elif pr!=None and qr!=None: val2 = check(pr,qr)
+                
             return val1 and val2
         
         return True if check(p,q) != False else False
