@@ -15,7 +15,7 @@ class Solution:
             isBorder(i-1,j)
             isBorder(i,j-1)
             return
-
+ 
         isBorder(row,col)
 
         for r,c in brdr:
