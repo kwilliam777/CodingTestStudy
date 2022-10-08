@@ -8,3 +8,4 @@ class Solution:
                 else:
                     return check(root.left,val+root.val) or check(root.right,val+root.val)
         return check(root,0)
+ 
